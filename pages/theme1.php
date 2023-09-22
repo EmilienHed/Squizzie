@@ -30,6 +30,6 @@ foreach ($questions as $index => $questionData) {
 ?>
 
 <!-- Script JavaScript pour gérer les réponses -->
-<script src="quiz-script.js"></script>
+<script src="../JS/quiz1.js"></script>
 </body>
 </html>
