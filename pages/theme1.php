@@ -20,8 +20,8 @@ foreach ($questions as $index => $questionData) {
     <div class="quiz-card">
         <h2>Question <?php echo $questionNumber; ?> : <?php echo $question; ?></h2>
         <div class="answer-options">
-            <button class="answer-button" onclick="checkAnswer(true)">Vrai</button>
-            <button class="answer-button" onclick="checkAnswer(false)">Faux</button>
+        <button class="answer-button" onclick="checkAnswer(true, 1)">Vrai</button>
+        <button class="answer-button" onclick="checkAnswer(false, 1)">Faux</button>
         </div>
         <div class="answer-message" id="answer-message-<?php echo $questionNumber; ?>"></div>
     </div>
