@@ -10,8 +10,20 @@
     <div class="container">
         <h1>Créer un questionnaire</h1>
         <form action="#" method="post">
-            <label for="title">Titre du questionnaire :</label>
-            <input type="text" id="title" name="title" required>
+            <label for="theme">Thème du questionnaire :</label>
+            <select id="theme" name="theme" required>
+                <option value="">Sélectionnez un thème</option>
+                <option value="musique">musique</option>
+                <option value="film">film</option>
+                <option value="nourriture">nourriture</option>
+                <option value="animaux">animaux</option>
+                <option value="pays">pays</option>
+                <option value="informatique">informatique</option>
+                <option value="emissions">emissions</option>
+                <option value="acteur">acteur</option>
+                <option value="voiture">voiture</option>
+                <option value="telephone">telephone</option>
+            </select>
 
             <div id="questions">
                 <!-- Ligne de question initiale -->
