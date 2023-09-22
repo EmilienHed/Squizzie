@@ -29,6 +29,10 @@ foreach ($questions as $index => $questionData) {
 }
 ?>
 
+<div class="footer">
+    <a href="theme.html">Retour à la page d'accueil</a>
+</div>
+
 <!-- Script JavaScript pour gérer les réponses -->
 <script src="../JS/quiz2.js"></script>
 </body>
