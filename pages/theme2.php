@@ -13,7 +13,7 @@
 <!-- Bloc PHP pour afficher les questions dans des cartes -->
 <?php
 foreach ($questions as $index => $questionData) {
-    $questionNumber = $index + 1;
+    $questionNumber = $index;
     $question = $questionData['question'];
     $reponse = $questionData['reponse'];
     ?>
