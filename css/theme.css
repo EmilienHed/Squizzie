@@ -3,6 +3,10 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 }
 
 /* Styles pour l'en-tête */
@@ -69,6 +73,7 @@ footer {
     background-color: #34495e;
     color: #fff;
     padding: 20px 0;
+    margin-top: auto;
 }
 
 /* Styles pour le texte du pied de page */
