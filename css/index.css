@@ -10,6 +10,9 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     text-align: center;
+    display: flex; /* Utilisation de flexbox */
+    flex-direction: column; /* Les enfants seront disposés en colonne */
+    min-height: 100vh; /* Hauteur minimale de 100% de la hauteur de la vue */
 }
 
 /* Styles pour l'en-tête */
@@ -49,6 +52,7 @@ footer {
     background-color: #34495e;
     color: #fff;
     padding: 20px 0;
+    margin-top: auto; /* Pousser vers le bas en utilisant "auto" */
 }
 
 /* Styles pour le texte du pied de page */
