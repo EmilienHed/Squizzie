@@ -10,15 +10,19 @@
     <div class="container">
         <h1>Créer un questionnaire</h1>
         <form action="#" method="post">
-            <label for="title">Thème du questionnaire :</label>
+            <label for="title">Titre du questionnaire :</label>
             <input type="text" id="title" name="title" required>
 
-            <label for="numQuestions">Nombre de questions :</label>
-            <input type="number" id="numQuestions" name="numQuestions" min="1" required>
-
             <div id="questions">
-                <!-- Les champs de questions seront ajoutés ici dynamiquement -->
+                <!-- Ligne de question initiale -->
+                <div class="question">
+                    <label for="question1">Question 1 :</label>
+                    <input type="text" id="question1" name="question1" required>
+                </div>
             </div>
+
+            <button type="button" id="add-question">Ajouter une question</button>
+            <button type="button" id="remove-question">Supprimer la dernière question</button>
 
             <button type="submit">Créer le questionnaire</button>
         </form>
