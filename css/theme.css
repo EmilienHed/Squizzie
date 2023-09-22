@@ -33,7 +33,8 @@ main {
     margin-top: 20px;
 }
 
-.theme {
+.theme,
+.addtheme {
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -43,17 +44,20 @@ main {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.theme h2 {
+.theme h2,
+.addtheme h2 {
     font-size: 24px;
     margin-bottom: 10px;
 }
 
-.theme p {
+.theme p,
+.addtheme p {
     font-size: 16px;
     margin-bottom: 20px;
 }
 
-.theme a {
+.theme a,
+.addtheme a {
     display: inline-block;
     background-color: #e74c3c;
     color: #fff;
@@ -64,7 +68,8 @@ main {
     transition: background-color 0.3s ease;
 }
 
-.theme a:hover {
+.theme a:hover,
+.addtheme a:hover {
     background-color: #c0392b;
 }
 
