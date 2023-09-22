@@ -1,15 +1,38 @@
-h1 {
-    color: #333; /* Couleur du texte */
-    font-size: 24px; /* Taille de la police */
+/* Style pour les cartes de questions */
+.quiz-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
 }
 
-/* Style pour les questions */
-.question {
-    font-weight: bold; /* Texte en gras */
-    margin-bottom: 10px; /* Marge en bas */
+/* Style pour le titre de la carte */
+.quiz-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
-/* Style pour les réponses */
-.reponse {
-    color: #0077cc; /* Couleur du texte */
+/* Style pour les boutons "Vrai" et "Faux" */
+.quiz-card .answer-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #007bff;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.quiz-card .answer-button:hover {
+    background-color: #0056b3;
+}
+
+/* Style pour le message de réponse */
+.quiz-card .answer-message {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
 }
