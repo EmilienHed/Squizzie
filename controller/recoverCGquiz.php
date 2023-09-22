@@ -13,7 +13,7 @@ try {
         $question = $row['question'];
         $reponse = $row['reponse'];
 
-        // Faites ce que vous voulez avec les données (affichage, stockage, etc.)
+
         echo "Question : $question<br>";
         echo "Réponse : $reponse<br>";
         echo "<hr>";
