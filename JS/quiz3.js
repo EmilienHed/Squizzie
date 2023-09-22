@@ -21,6 +21,6 @@ function checkAnswer(userAnswer, questionNumber) {
         }
     };
 
-    xhr.open("GET", "../controller/getCorrectAnswerForCG.php?questionNumber=" + questionNumber, true);
+    xhr.open("GET", "../controller/getCorrectAnswerForMusique.php?questionNumber=" + questionNumber, true);
     xhr.send();
 }

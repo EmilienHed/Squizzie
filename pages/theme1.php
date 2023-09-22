@@ -13,15 +13,15 @@
 <!-- Bloc PHP pour afficher les questions dans des cartes -->
 <?php
 foreach ($questions as $index => $questionData) {
-    $questionNumber = $index + 1;
+    $questionNumber = $index;
     $question = $questionData['question'];
     $reponse = $questionData['reponse'];
     ?>
     <div class="quiz-card">
         <h2>Question <?php echo $questionNumber; ?> : <?php echo $question; ?></h2>
         <div class="answer-options">
-        <button class="answer-button" onclick="checkAnswer(true, 1)">Vrai</button>
-        <button class="answer-button" onclick="checkAnswer(false, 1)">Faux</button>
+            <button class="answer-button" onclick="checkAnswer('Vrai', <?php echo $questionNumber; ?>)">Vrai</button>
+            <button class="answer-button" onclick="checkAnswer('Faux', <?php echo $questionNumber; ?>)">Faux</button>
         </div>
         <div class="answer-message" id="answer-message-<?php echo $questionNumber; ?>"></div>
     </div>

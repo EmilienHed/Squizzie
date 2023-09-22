@@ -5,10 +5,10 @@
     <link rel="stylesheet" type="text/css" href="../css/theme1.css">
 </head>
 <body>
-<h1>Thème Culture Générale</h1>
+<h1>Thème Animaux</h1>
 
 <!-- Inclure les données récupérées ici -->
-<?php include('../controller/recoverCGquiz.php'); ?>
+<?php include('../controller/recoverAxQuiz.php'); ?>
 
 <!-- Bloc PHP pour afficher les questions dans des cartes -->
 <?php

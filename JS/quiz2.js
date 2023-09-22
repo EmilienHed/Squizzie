@@ -21,6 +21,6 @@ function checkAnswer(userAnswer, questionNumber) {
         }
     };
 
-    xhr.open("GET", "../controller/getCorrectAnswerForCG.php?questionNumber=" + questionNumber, true);
+    xhr.open("GET", "../controller/getCorrectAnswerForAX.php?questionNumber=" + questionNumber, true);
     xhr.send();
 }
