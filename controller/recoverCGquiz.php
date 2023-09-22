@@ -12,11 +12,12 @@ try {
 
     // Parcourir les résultats et ajouter chaque question et réponse au tableau
     while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+        $id_question = $row['id_question'];
         $question = $row['question'];
         $reponse = $row['reponse'];
 
         // Ajouter la question et la réponse au tableau
-        $questions[] = array(
+        $questions[$id_question] = array(
             'question' => $question,
             'reponse' => $reponse
         );
